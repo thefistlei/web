@@ -1,4 +1,4 @@
-# Install script for directory: /home/yanfa-04/lei/newCode/socket/client
+# Install script for directory: /home/yanfa-04/lei/asio/web/socket/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yanfa-04/lei/newCode/socket/client/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yanfa-04/lei/asio/web/socket/client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

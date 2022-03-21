@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
     int sock = 0; long valread;
     struct sockaddr_in serv_addr;
-    char *hello = "Hello from client";
+    char *hello = "Hello from client, this is 233";
     char buffer[1024] = {0};
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
     
-    const char chhost[256]="127.0.0.1";
+    const char chhost[256]="149.132.127.236";
     if (argc > 1)
        strcpy(chhost, argv[1]);
 	

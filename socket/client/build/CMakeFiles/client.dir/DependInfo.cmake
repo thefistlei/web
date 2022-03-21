@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/yanfa-04/lei/newCode/socket/client/client.c" "/home/yanfa-04/lei/newCode/socket/client/build/CMakeFiles/client.dir/client.c.o"
+  "/home/yanfa-04/lei/asio/web/socket/client/client.c" "/home/yanfa-04/lei/asio/web/socket/client/build/CMakeFiles/client.dir/client.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
