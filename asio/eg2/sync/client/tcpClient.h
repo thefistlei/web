@@ -1,22 +1,19 @@
-//**************************tcpServer.h***************************
-#include <boost/shared_ptr.hpp>
+//**************************tcpClient.h***************************
 #include <boost/asio.hpp>
 
 using tcp=boost::asio::ip::tcp;
 
-class tcpServer {
-    typedef boost::shared_ptr<tcp::socket> socket_ptr;
-
+class tcpClient {
 private:
     boost::asio::io_service io_service;
-    tcp::endpoint endpoint;
-    tcp::acceptor acceptor;
+    tcp::endpoint           endpoint;
+    tcp::socket             socket;
 
 public:
-    tcpServer();
-    ~tcpServer();
+    tcpClient(const tcp::endpoint &point);
+    ~tcpClient();
 
 private:
-    void accept();
-    void do_conn(socket_ptr sock);
+    void conn();
+    void ioAction();
 };

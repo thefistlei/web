@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5df2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5df2.dir/build.make CMakeFiles/cmTC_c5df2.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c5df2.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c5df2.dir/testCCompiler.c.o   -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c5df2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5df2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c5df2.dir/testCCompiler.c.o  -o cmTC_c5df2 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_4ebc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ebc9.dir/build.make CMakeFiles/cmTC_4ebc9.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4ebc9.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ebc9.dir/testCCompiler.c.o   -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4ebc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ebc9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4ebc9.dir/testCCompiler.c.o  -o cmTC_4ebc9 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38a4a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38a4a.dir/build.make CMakeFiles/cmTC_38a4a.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_38a4a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a4a.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o  -o cmTC_38a4a 
+Run Build Command:"/usr/bin/make" "cmTC_4cc29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cc29.dir/build.make CMakeFiles/cmTC_4cc29.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4cc29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc29.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o  -o cmTC_4cc29 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38a4a' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6dpkHe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38a4a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38a4a' '-mtune=generic' '-march=x86-64'
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cc29' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaJFZv0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4cc29 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cc29' '-mtune=generic' '-march=x86-64'
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_38a4a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_38a4a.dir/build.make CMakeFiles/cmTC_38a4a.dir/build]
-  ignore line: [make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_38a4a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a4a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o  -o cmTC_38a4a ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4cc29/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4cc29.dir/build.make CMakeFiles/cmTC_4cc29.dir/build]
+  ignore line: [make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4cc29]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc29.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o  -o cmTC_4cc29 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38a4a' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6dpkHe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38a4a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cc29' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaJFZv0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4cc29 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6dpkHe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaJFZv0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_38a4a] ==> ignore
+    arg [cmTC_4cc29] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_38a4a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4cc29.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,17 +156,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f33ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f33ad.dir/build.make CMakeFiles/cmTC_f33ad.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_f33ad.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f33ad.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f33ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f33ad.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f33ad.dir/feature_tests.c.o  -o cmTC_f33ad 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_3a6f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a6f8.dir/build.make CMakeFiles/cmTC_3a6f8.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3a6f8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3a6f8.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3a6f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a6f8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3a6f8.dir/feature_tests.c.o  -o cmTC_3a6f8 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77b2d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77b2d.dir/build.make CMakeFiles/cmTC_77b2d.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_77b2d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_77b2d.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77b2d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b2d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_77b2d.dir/feature_tests.c.o  -o cmTC_77b2d 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_c8036/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8036.dir/build.make CMakeFiles/cmTC_c8036.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c8036.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c8036.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c8036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8036.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c8036.dir/feature_tests.c.o  -o cmTC_c8036 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +196,17 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_29a56/fast"
-/usr/bin/make -f CMakeFiles/cmTC_29a56.dir/build.make CMakeFiles/cmTC_29a56.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_29a56.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_29a56.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_29a56
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29a56.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_29a56.dir/feature_tests.c.o  -o cmTC_29a56 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_8d5b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d5b8.dir/build.make CMakeFiles/cmTC_8d5b8.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8d5b8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8d5b8.dir/feature_tests.c.o   -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d5b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d5b8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8d5b8.dir/feature_tests.c.o  -o cmTC_8d5b8 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,30 +214,30 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96716/fast"
-/usr/bin/make -f CMakeFiles/cmTC_96716.dir/build.make CMakeFiles/cmTC_96716.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_96716.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_96716.dir/testCXXCompiler.cxx.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_96716
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96716.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_96716.dir/testCXXCompiler.cxx.o  -o cmTC_96716 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_19ee7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19ee7.dir/build.make CMakeFiles/cmTC_19ee7.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_19ee7.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_19ee7.dir/testCXXCompiler.cxx.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_19ee7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ee7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_19ee7.dir/testCXXCompiler.cxx.o  -o cmTC_19ee7 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acce0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_acce0.dir/build.make CMakeFiles/cmTC_acce0.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_acce0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acce0.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_acce0 
+Run Build Command:"/usr/bin/make" "cmTC_c97a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c97a6.dir/build.make CMakeFiles/cmTC_c97a6.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c97a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c97a6.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c97a6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -249,24 +249,24 @@ Thread model: posix
 gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acce0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnlJdzq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_acce0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acce0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c97a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc79DLvk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c97a6 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c97a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_acce0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_acce0.dir/build.make CMakeFiles/cmTC_acce0.dir/build]
-  ignore line: [make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_acce0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acce0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_acce0 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c97a6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c97a6.dir/build.make CMakeFiles/cmTC_c97a6.dir/build]
+  ignore line: [make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c97a6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c97a6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c97a6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acce0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnlJdzq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_acce0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c97a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc79DLvk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c97a6 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccnlJdzq.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc79DLvk.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_acce0] ==> ignore
+    arg [cmTC_c97a6] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_acce0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c97a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ca92/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ca92.dir/build.make CMakeFiles/cmTC_8ca92.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_8ca92.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8ca92.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8ca92
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca92.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8ca92.dir/feature_tests.cxx.o  -o cmTC_8ca92 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_f5e19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5e19.dir/build.make CMakeFiles/cmTC_f5e19.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f5e19.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f5e19.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f5e19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e19.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f5e19.dir/feature_tests.cxx.o  -o cmTC_f5e19 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ec28/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ec28.dir/build.make CMakeFiles/cmTC_9ec28.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_9ec28.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9ec28.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9ec28
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec28.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9ec28.dir/feature_tests.cxx.o  -o cmTC_9ec28 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_cbda8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbda8.dir/build.make CMakeFiles/cmTC_cbda8.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cbda8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_cbda8.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cbda8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbda8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cbda8.dir/feature_tests.cxx.o  -o cmTC_cbda8 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ab35f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ab35f.dir/build.make CMakeFiles/cmTC_ab35f.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_ab35f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ab35f.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ab35f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab35f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_ab35f.dir/feature_tests.cxx.o  -o cmTC_ab35f 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_7a4b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a4b8.dir/build.make CMakeFiles/cmTC_7a4b8.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7a4b8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7a4b8.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a4b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a4b8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7a4b8.dir/feature_tests.cxx.o  -o cmTC_7a4b8 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,17 +559,17 @@ make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_efed0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_efed0.dir/build.make CMakeFiles/cmTC_efed0.dir/build
-make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_efed0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_efed0.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_efed0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efed0.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_efed0.dir/feature_tests.cxx.o  -o cmTC_efed0 
-make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_d3079/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3079.dir/build.make CMakeFiles/cmTC_d3079.dir/build
+make[1]: 进入目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d3079.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d3079.dir/feature_tests.cxx.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d3079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3079.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d3079.dir/feature_tests.cxx.o  -o cmTC_d3079 
+make[1]: 离开目录“/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -3,7 +3,7 @@
 #include <boost/bind.hpp>
 #include <boost/thread.hpp>
 #include "tcpServer.h"
-
+#include <iostream>
 
 tcpServer::tcpServer():
     endpoint(tcp::v4(),2001),

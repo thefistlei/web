@@ -13,8 +13,8 @@ int main(int argc, char* argv[]) {
     }
 
     unsigned short port = std:: atoi(argv[1]);
-    auto const address = boost::asio::ip::address_v4::from_string("192.168.0.123");
-    tcp::endpoint point(address,port);
+    auto const address = boost::asio::ip::address_v4::from_string("192.168.0.233");
+    tcp::endpoint point(address, port);
 
     std::cout<<"start"<<std::endl;
     openClient(point);
@@ -24,5 +24,8 @@ int main(int argc, char* argv[]) {
 
 void openClient(const tcp::endpoint &point) {
     tcpClient client(point);
+    while(1){
+
+    };
 //    async_TcpClient async_client(point);
 }

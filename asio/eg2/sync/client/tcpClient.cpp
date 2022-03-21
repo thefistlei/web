@@ -1,47 +1,47 @@
-//**************************tcpServer.cpp***************************
+//**************************tcpClient.cpp***************************
 
+#include <iostream>
+#include "tcpClient.h"
+#include <vector>
 #include <boost/bind.hpp>
-#include <boost/thread.hpp>
-#include "tcpServer.h"
 
 
-tcpServer::tcpServer():
-    endpoint(tcp::v4(),2001),io_service(), acceptor(io_service,endpoint){
-    accept();
+tcpClient::tcpClient(const tcp::endpoint &point):
+    io_service(),
+    endpoint(point),
+    socket(io_service){
+        conn();
 }
 
-void tcpServer::accept() {
-        socket_ptr sock(new tcp::socket(io_service));
-
-        std::cout<<"server has opened! and accept is sync"<<std::endl;
-        acceptor.accept(*sock);//阻塞
-        std::cout<<"server accepted, client: "<<sock->remote_endpoint().address()<<std::endl;
-        sock->send(boost::asio::buffer("hello client!"));   //发送数据
-        do_conn(sock);
-//        boost::thread thread(boost::bind(&tcpServer::do_conn,this,sock));
-
-}
-
-void tcpServer::do_conn(socket_ptr sock) {
-    try{
-        while(true){
-        char data[512];
-
-            size_t len = sock->read_some(boost::asio::buffer(data));
-            std::cout<<"server connected to client! and loop to read data"<<std::endl;
-
-            if (len>0){
-                write(*sock,boost::asio::buffer("ok",2));
-                std::cout<<"server recall ok"<<std::endl;
-            }
-
-        }
-    }catch(const std::exception &e){
-        std::cerr<<"Server Exception:"<<e.what()<<std::endl;
+void tcpClient::conn() {
+    try
+    {
+        socket.connect(endpoint);   //Socket连接到端点
+        std::cout<<"client connected "<<socket.remote_endpoint().address()<<std::endl;
+        ioAction();
     }
-//    accept();
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
 }
 
-tcpServer::~tcpServer() {
+void tcpClient::ioAction() {
+    while(true){
+        boost::asio::write(socket,boost::asio::buffer("hello server"));//向Socket中写入数据
+        if(socket.available()){
+            std::cout<<socket.available()<<std::endl;   //获取可读取的字节数
+            std::vector<char> str(socket.available()+1,0);   //定义一个vector缓冲区
+            socket.receive(boost::asio::buffer(str));   //使用buffer()包装缓冲区接收数据
+            std::cout<<"client received: "<<&str[0]<<std::endl;  //输出接收到的字符串
+            std::string string= &str[0];
+            if(string == "ok"){
+                return;    //收到返回值后结束
+            }
+        }
+    }
+}
+
+tcpClient::~tcpClient() {
 
 }

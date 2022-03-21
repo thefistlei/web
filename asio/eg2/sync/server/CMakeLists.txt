@@ -11,4 +11,4 @@ include_directories(/usr/local/include)
 # Add an executable
 add_executable(server main.cpp tcpServer.cpp)
 
-target_link_libraries(main /usr/local/lib/libboost_system.a pthread)
+target_link_libraries(server /usr/local/lib/libboost_system.a pthread)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yanfa-04/lei/asio/web/asio/sync/client
+CMAKE_SOURCE_DIR = /home/yanfa-04/lei/asio/web/asio/eg2/sync/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yanfa-04/lei/asio/web/asio/sync/client/build
+CMAKE_BINARY_DIR = /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -57,42 +57,68 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client.cpp.o: ../client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/client.cpp.o -c /home/yanfa-04/lei/asio/web/asio/sync/client/client.cpp
+CMakeFiles/client.dir/main.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/main.cpp.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/main.cpp
 
-CMakeFiles/client.dir/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanfa-04/lei/asio/web/asio/sync/client/client.cpp > CMakeFiles/client.dir/client.cpp.i
+CMakeFiles/client.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/main.cpp > CMakeFiles/client.dir/main.cpp.i
 
-CMakeFiles/client.dir/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanfa-04/lei/asio/web/asio/sync/client/client.cpp -o CMakeFiles/client.dir/client.cpp.s
+CMakeFiles/client.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/main.cpp -o CMakeFiles/client.dir/main.cpp.s
 
-CMakeFiles/client.dir/client.cpp.o.requires:
+CMakeFiles/client.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/client.dir/client.cpp.o.requires
+.PHONY : CMakeFiles/client.dir/main.cpp.o.requires
 
-CMakeFiles/client.dir/client.cpp.o.provides: CMakeFiles/client.dir/client.cpp.o.requires
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.o.provides.build
-.PHONY : CMakeFiles/client.dir/client.cpp.o.provides
+CMakeFiles/client.dir/main.cpp.o.provides: CMakeFiles/client.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/client.dir/main.cpp.o.provides
 
-CMakeFiles/client.dir/client.cpp.o.provides.build: CMakeFiles/client.dir/client.cpp.o
+CMakeFiles/client.dir/main.cpp.o.provides.build: CMakeFiles/client.dir/main.cpp.o
+
+
+CMakeFiles/client.dir/tcpClient.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/tcpClient.cpp.o: ../tcpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/tcpClient.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/tcpClient.cpp.o -c /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/tcpClient.cpp
+
+CMakeFiles/client.dir/tcpClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/tcpClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/tcpClient.cpp > CMakeFiles/client.dir/tcpClient.cpp.i
+
+CMakeFiles/client.dir/tcpClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/tcpClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/tcpClient.cpp -o CMakeFiles/client.dir/tcpClient.cpp.s
+
+CMakeFiles/client.dir/tcpClient.cpp.o.requires:
+
+.PHONY : CMakeFiles/client.dir/tcpClient.cpp.o.requires
+
+CMakeFiles/client.dir/tcpClient.cpp.o.provides: CMakeFiles/client.dir/tcpClient.cpp.o.requires
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcpClient.cpp.o.provides.build
+.PHONY : CMakeFiles/client.dir/tcpClient.cpp.o.provides
+
+CMakeFiles/client.dir/tcpClient.cpp.o.provides.build: CMakeFiles/client.dir/tcpClient.cpp.o
 
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/client.cpp.o"
+"CMakeFiles/client.dir/main.cpp.o" \
+"CMakeFiles/client.dir/tcpClient.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/client.cpp.o
+client: CMakeFiles/client.dir/main.cpp.o
+client: CMakeFiles/client.dir/tcpClient.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: /usr/local/lib/libboost_system.a
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +126,8 @@ CMakeFiles/client.dir/build: client
 
 .PHONY : CMakeFiles/client.dir/build
 
-CMakeFiles/client.dir/requires: CMakeFiles/client.dir/client.cpp.o.requires
+CMakeFiles/client.dir/requires: CMakeFiles/client.dir/main.cpp.o.requires
+CMakeFiles/client.dir/requires: CMakeFiles/client.dir/tcpClient.cpp.o.requires
 
 .PHONY : CMakeFiles/client.dir/requires
 
@@ -109,6 +136,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/yanfa-04/lei/asio/web/asio/sync/client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yanfa-04/lei/asio/web/asio/sync/client /home/yanfa-04/lei/asio/web/asio/sync/client /home/yanfa-04/lei/asio/web/asio/sync/client/build /home/yanfa-04/lei/asio/web/asio/sync/client/build /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yanfa-04/lei/asio/web/asio/eg2/sync/client /home/yanfa-04/lei/asio/web/asio/eg2/sync/client /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

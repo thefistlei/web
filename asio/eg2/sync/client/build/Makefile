@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yanfa-04/lei/asio/web/asio/sync/client
+CMAKE_SOURCE_DIR = /home/yanfa-04/lei/asio/web/asio/eg2/sync/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yanfa-04/lei/asio/web/asio/sync/client/build
+CMAKE_BINARY_DIR = /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,59 @@ client/fast:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-client.o: client.cpp.o
+main.o: main.cpp.o
 
-.PHONY : client.o
+.PHONY : main.o
 
 # target to build an object file
-client.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.o
-.PHONY : client.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-client.i: client.cpp.i
+main.i: main.cpp.i
 
-.PHONY : client.i
+.PHONY : main.i
 
 # target to preprocess a source file
-client.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.i
-.PHONY : client.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-client.s: client.cpp.s
+main.s: main.cpp.s
 
-.PHONY : client.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-client.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.s
-.PHONY : client.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+tcpClient.o: tcpClient.cpp.o
+
+.PHONY : tcpClient.o
+
+# target to build an object file
+tcpClient.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcpClient.cpp.o
+.PHONY : tcpClient.cpp.o
+
+tcpClient.i: tcpClient.cpp.i
+
+.PHONY : tcpClient.i
+
+# target to preprocess a source file
+tcpClient.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcpClient.cpp.i
+.PHONY : tcpClient.cpp.i
+
+tcpClient.s: tcpClient.cpp.s
+
+.PHONY : tcpClient.s
+
+# target to generate assembly for a file
+tcpClient.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcpClient.cpp.s
+.PHONY : tcpClient.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... client"
 	@echo "... edit_cache"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... tcpClient.o"
+	@echo "... tcpClient.i"
+	@echo "... tcpClient.s"
 .PHONY : help
 
 

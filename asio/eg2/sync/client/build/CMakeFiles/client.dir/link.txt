@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/client.dir/client.cpp.o  -o client /usr/local/lib/libboost_system.a -lpthread 
+/usr/bin/c++     CMakeFiles/client.dir/main.cpp.o CMakeFiles/client.dir/tcpClient.cpp.o  -o client /usr/local/lib/libboost_system.a -lpthread 

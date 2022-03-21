@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yanfa-04/lei/asio/web/asio/sync/client/client.cpp" "/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/client.dir/client.cpp.o"
+  "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/main.cpp" "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/client.dir/main.cpp.o"
+  "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/tcpClient.cpp" "/home/yanfa-04/lei/asio/web/asio/eg2/sync/client/build/CMakeFiles/client.dir/tcpClient.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

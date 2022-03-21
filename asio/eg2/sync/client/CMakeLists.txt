@@ -9,7 +9,7 @@ project (client)
 include_directories(/usr/local/include)
 
 # Add an executable
-add_executable(client client.cpp)
- 
+add_executable(client main.cpp tcpClient.cpp)
+
 target_link_libraries(client /usr/local/lib/libboost_system.a pthread)
 
