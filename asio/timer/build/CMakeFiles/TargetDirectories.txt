@@ -1,0 +1,3 @@
+/home/yanfa-04/lei/asio/web/asio/timer/build/CMakeFiles/rebuild_cache.dir
+/home/yanfa-04/lei/asio/web/asio/timer/build/CMakeFiles/main.dir
+/home/yanfa-04/lei/asio/web/asio/timer/build/CMakeFiles/edit_cache.dir
