@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
     
-    const char chhost[256]="149.132.127.236";
+    const char chhost[256]="192.168.101.252";
     if (argc > 1)
        strcpy(chhost, argv[1]);
 	
