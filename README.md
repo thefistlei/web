@@ -1,6 +1,9 @@
 # web
 
-web. It contains tcp/ip.
+The examples of socket communication, boost asio. 
 
-. socket comunication.
-. boost asio test
+. socket communication.  
+. boost asio.  
+   . httpserver eg.
+    . eg1. an example of asio.  
+    . eg2. contains both async and sync.
