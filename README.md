@@ -9,6 +9,6 @@ The examples of socket communication, boost asio, thread.
    &ensp;. eg1. an example of asio.  
    &ensp;. eg2. contains both async and sync.  
 
-. thread
+. thread  
    &ensp;. std thread.  
    &ensp;. boost thread.  

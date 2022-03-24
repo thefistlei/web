@@ -1,3 +1,0 @@
-/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/rebuild_cache.dir
-/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/client.dir
-/home/yanfa-04/lei/asio/web/asio/sync/client/build/CMakeFiles/edit_cache.dir
