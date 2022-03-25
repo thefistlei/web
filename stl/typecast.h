@@ -1,3 +1,8 @@
+// Copyright (c) 2022 stl test
+// thefist@126.com
+// 2022/3/25
+// Official repository: https://github.com/thefistlei/web
+
 #pragma once
 
 #ifndef TYPECAST_H
@@ -15,14 +20,14 @@ namespace myclass
 		{  
 		}    
 		
-		//ÀàĞÍ×ª»»º¯Êı
+		//ç±»å‹è½¬æ¢å‡½æ•°
 		operator double() const {  
 			std::cout << "double() " << std::endl; 
 
 			return m_real; 
 		}   
 
-		//ÀàĞÍ×ª»»º¯Êı
+		//ç±»å‹è½¬æ¢å‡½æ•°
 		operator bool() const { 
 			std::cout << "bool() " << std::endl;
 
@@ -32,14 +37,14 @@ namespace myclass
 			return false;
 		}
 
-		//ÀàĞÍ×ª»»º¯Êı
+		//ç±»å‹è½¬æ¢å‡½æ•°
 		operator int() const {
 			std::cout << "int() " << std::endl;
 
 			return static_cast<int>(m_real); 
 		}
 
-		//ÀàĞÍ×ª»»º¯Êı
+		//ç±»å‹è½¬æ¢å‡½æ•°
 		operator std::string() const {
 
 			std::cout << "string() " << std::endl;
@@ -56,10 +61,10 @@ namespace myclass
 		static void test()
 		{
 			typeCast c1(24.6f);
-			double f = c1;  //Ïàµ±ÓÚ double f = Complex::operator double(&c1);
+			double f = c1;  //ç›¸å½“äº double f = Complex::operator double(&c1);
 			std::cout << "f = " << f << std::endl;
 
-			//f = 12.5 + c1 + 6;  //Ïàµ±ÓÚ f = 12.5 + Complex::operator double(&c1) + 6;
+			//f = 12.5 + c1 + 6;  //ç›¸å½“äº f = 12.5 + Complex::operator double(&c1) + 6;
 			//std::cout << "f = " << f << std::endl;
 
 			int i = c1;   

@@ -1,3 +1,8 @@
+// Copyright (c) 2022 stl test
+// thefist@126.com
+// 2022/3/25
+// Official repository: https://github.com/thefistlei/web
+
 #pragma once
 
 #ifndef STDTEST_H
