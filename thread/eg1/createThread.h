@@ -6,8 +6,8 @@
 
 #pragma once
 
-#ifndef KTH_H
-#define KTH_H
+#ifndef CREATETHREAD_H
+#define CREATETHREAD_H
  
 #include <boost/thread.hpp> 
 #include <iostream> 
@@ -201,4 +201,4 @@ namespace createThread
     } 
 }
 
-#endif // !KTH_H
+#endif // !CREATETHREAD_H

@@ -13,5 +13,5 @@ The examples of socket communication, boost asio, thread.
    &ensp;. std thread.  
    &ensp;. boost thread.  
 
-. stl
-   &ensp; stl test programme compiled by vistual studio 2019.  
+. stl  
+   &ensp; stl test programme.  
